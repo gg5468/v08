@@ -38,6 +38,7 @@ namespace vsite::oop::v8
 		case '/':
 			if (n2 == 0) {
 				throw divide_zero();
+
 			}
 			else {
 				return n1 / n2;
